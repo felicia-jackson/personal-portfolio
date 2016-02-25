@@ -1,0 +1,16 @@
+header{
+  height: auto;
+  line-height: 80px;
+  color:gray;
+  padding: 10px;
+  font-size:20px;
+  border-bottom: 2px solid black;
+}
+.text{
+  float:left;
+  font:cursive;
+}
+.logo{
+  width: 70%;
+  float:right;
+}
