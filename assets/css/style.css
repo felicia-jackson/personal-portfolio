@@ -4,6 +4,13 @@
 html, body{
   font-family: arial-black;
 }
+body{
+  background: url(../images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 header{
   height: 170px;
   line-height: 100px;
@@ -27,21 +34,24 @@ header{
 h1{
   margin-bottom: 50px;
 }
-.title{
+.row{
   text-align: center;
 }
+.title{
+  text-align: center;
+  font-weight: bolder;
+}
 .github{
-  width:90px;
-  border: 1px solid black;
+  width:120px;
+  margin-bottom: 18px;
 }
 .firebase{
-  width:90px;
+  width: 45px;
 }
-.col-half{
-  display: inline-block;
-  width: 50%;
-  float:right;
-  box-sizing: border-box;
+.caption{
+  background-color: white;
+  border-radius: 40%;
+  margin-bottom: 50px;
 }
 h3{
   color:white;
@@ -52,13 +62,16 @@ h3{
   margin: 20px;
   clear:both;
 }
+.whiteBackground{
+  background-color: white;
+}
 p{
   margin: 20px;
   font-size: 18px;
 }
 footer{
   background-color: #003311;
-  height: 90px;
+  height: 100px;
   width: 100%;
   color: white;
   font:cursive;
@@ -81,10 +94,3 @@ footer{
 }
 
 
-
-
-@media screen and (min-width: 768px){
-  main, main .row{
-    height: 100%;
-  }
-} 
