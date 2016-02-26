@@ -20,19 +20,29 @@ header{
   border-bottom: 2px solid black;
 }
 .text{
-  float:left;
+  text-align: center;
   font:cursive;
-  color: #4B0082;
+  color: white; 
+  position: absolute;
+  width: 100%;
+  top: 2px; 
+  right: 0;   
 }
 .logo{
-  width:30px;
-  height: 30px;
-  float:left; 
-  margin-right: 218px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  width: 100%;
 }
 
 h1{
   margin-bottom: 50px;
+}
+.container-fluid{
+  padding-right: 10%;
+  padding-left: 10%;
+  min-width: 10%;
 }
 .row{
   text-align: center;
@@ -64,8 +74,10 @@ h3{
 }
 .whiteBackground{
   background-color: white;
+  border-radius: 6px;
 }
 p{
+  margin-top: 35px;
   margin: 20px;
   font-size: 18px;
 }
